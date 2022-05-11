@@ -1,5 +1,5 @@
 
-// Implementing the remote interface  
+// Implementing the remote interface   
 public class ImplExample 
 implements IRemoteMethod {  
    
