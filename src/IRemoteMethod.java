@@ -5,6 +5,7 @@ import java.rmi.RemoteException;
 public interface IRemoteMethod 
 extends Remote {
 	
+	
    void printMsg() throws RemoteException;  
 ;
    
