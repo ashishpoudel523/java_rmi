@@ -8,7 +8,6 @@ public class Client {
       try {  
          // Getting the registry 
          Registry registry = LocateRegistry.getRegistry(null); 
-    
          // Looking up the registry for the remote object 
          IRemoteMethod stub = (IRemoteMethod) registry.lookup("Hello"); 
     
